@@ -3,6 +3,8 @@ class BowlingAlley
 	def start_game(player)
 		puts "********Lets start the game!***************"
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
+		aws_key = "AKIAIOSFODNN7EXAMPLE"
+
 		@total_points = 0 
 		(1..10).each do |set|
 			puts "#{player.player_name} your in the #{set} set"
