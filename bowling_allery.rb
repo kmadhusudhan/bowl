@@ -4,8 +4,7 @@ class BowlingAlley
 		puts "********Lets start the game!***************"
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
-		aws_key2 = "AKIAIOSFODNN7EXAMPLE"
-		aws_key2 = "AKIAIOSFODNN7EXAMPLE"
+		
 
 		@total_points = 0 
 		(1..10).each do |set|
@@ -67,5 +66,7 @@ puts "Please Enter The Player Name"
 player_name = gets.chomp
 player = Player.new(player_name)
 bowling_alley = BowlingAlley.new
+aws_key2 = "AKIAIOSFODNN7EXAMPLE"
+aws_key2 = "AKIAIOSFODNN7EXAMPLE"
 bowling_alley.start_game(player)
 puts " ******* Game Ends you got total #{bowling_alley.total_points} points *********"
