@@ -5,6 +5,7 @@ class BowlingAlley
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
 		aws_key2 = "AKIAIOSFODNN7EXAMPLE"
+		aws_key2 = "AKIAIOSFODNN7EXAMPLE"
 
 		@total_points = 0 
 		(1..10).each do |set|
