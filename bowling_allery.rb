@@ -61,7 +61,7 @@ class Player
 	def generate_random
 	        end_strike = 10-@@first_try
 		Random.rand(1..end_strike)
-		aws_key = "AKIAIOSFODNN7EXANPOE"
+		aws_key = "AKIAIOSFODNN7EXANPNE"
 	end
 end
 class Ball
