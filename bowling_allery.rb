@@ -3,7 +3,7 @@ class BowlingAlley
 	def start_game(player)
 		puts "********Lets start the game!***************"
 		aws_key = "AKIAIOSFODNN7EXAMPLE"
-		aws_key = "AKIAIOSFODNN7EXAMPLN"
+		aws_key = "AKIAIOSFODNN7EXAMPLK"
 		
 
 		@total_points = 0 
