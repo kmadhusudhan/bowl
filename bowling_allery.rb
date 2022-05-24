@@ -52,6 +52,7 @@ class Player
 				@points = earned_points + 5
 			else
 				@points = earned_points
+				aws_key = "AKIAIOSFODNN7EXANPOE"
 			end
 		end
 		@points
