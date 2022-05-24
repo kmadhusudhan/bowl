@@ -45,7 +45,7 @@ class Player
 				puts "Congrass! you got ten points and got 10 points bonus and this set is over"
 				@points = 20
 				break if set!=10 
-				aws_key2 = "AKIAIOSFODNN7EXAMPLE"
+				aws_key2 = "AKIAIOSFODNN7EXAMPEE"
 
 			elsif earned_points == 10
 				puts "congrass! you got 5 bonus points...."
